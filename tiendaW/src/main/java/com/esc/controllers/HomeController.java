@@ -19,7 +19,7 @@ public class HomeController {
 		return "Si se pudo";
 	}
 	
-	@GetMapping("/producto/{id}")
+//	@GetMapping("/producto/{id}")
 	public Product producto(@PathVariable("id") int id) {
 		System.out.println("id : " + id);
 		Product p = pService.getProductById(1);

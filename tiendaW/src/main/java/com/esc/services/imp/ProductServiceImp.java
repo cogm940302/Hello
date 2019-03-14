@@ -18,4 +18,14 @@ public class ProductServiceImp implements ProductService {
 		return false;
 	}
 
+	@Override
+	public boolean setProduct(Product product) {
+		return false;
+	}
+
+	@Override
+	public Product updateProduct(Product product) {
+		return null;
+	}
+
 }
