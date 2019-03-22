@@ -22,7 +22,10 @@ public class ProductController {
 	
 	@GetMapping("/{id}")
 	public Product getProducto(@PathVariable("id")int id) {
-		Product p = pService.getProductById(id);
+		Product p = new Product();
+		pService.findAll();
+//		Product p = pService.getProductById(id);
+//		pService.algo("miguel");
 		return p;
 	}
 	

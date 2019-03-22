@@ -1,18 +1,15 @@
 package com.esc.object;
 
+import org.springframework.data.annotation.Id;
+
 public class Product {
 	
-	private int id;
+	
+	@Id private String  id;
 	private String nombre;
 	private String descripcion;
 	private double precio;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
 	public String getNombre() {
 		return nombre;
 	}

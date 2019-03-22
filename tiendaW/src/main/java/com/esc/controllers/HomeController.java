@@ -26,7 +26,6 @@ public class HomeController {
 		p.setDescripcion("algo");
 		p.setNombre("nombre");
 		p.setPrecio(2.0);
-		p.setId(id);
 		return p;
 	}
 }
