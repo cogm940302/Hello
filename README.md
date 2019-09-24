@@ -1,3 +1,3 @@
-# Service for a shop
+# Simple Service MVC
 
 
