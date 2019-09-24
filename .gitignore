@@ -1,5 +1,5 @@
 **/.classpath
-**/target/
+tiendaW/target/*
 **/.project
-**/.settings/
-**/.class
+tiendaW/.settings/
+tiendaW/.class
