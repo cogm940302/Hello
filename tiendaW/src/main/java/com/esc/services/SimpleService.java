@@ -1,5 +1,5 @@
 package com.esc.services;
 
-public interface ReportService {
+public interface SimpleService {
 
 }
